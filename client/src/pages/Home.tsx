@@ -1,12 +1,12 @@
-import React from 'react'
+import type { FormEvent } from 'react';
 import { useState } from 'react';
 import { Loader2Icon } from 'lucide-react';
 const Home = () => {
 
-  const [input, setInput] = useState('');
+  const [, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const onSubmitHandler = async (e: React.FormEvent) => {
+  const onSubmitHandler = async (e: FormEvent) => {
     e.preventDefault();
 
     setLoading(true);

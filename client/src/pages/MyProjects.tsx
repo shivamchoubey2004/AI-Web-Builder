@@ -19,7 +19,7 @@ const MyProjects = () => {
        }, 1000);
 
     }
-    const deleteProject = async (projectId: string) => {
+    const deleteProject = async (_projectId: string) => {
 
     }
     useEffect(() => {
